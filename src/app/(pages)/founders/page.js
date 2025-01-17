@@ -2,10 +2,10 @@
 import React, { useEffect, useRef } from "react";
 import gsap from "gsap";
 import "./style.scss";
-import img1 from "../../../../public/assets/founders/prajakta.webp";
-import img2 from "../../../../public/assets/founders/rajveer.webp";
-import img3 from "../../../../public/assets/founders/baburao.webp";
-import img4 from "../../../../public/assets/founders/rekhatai.webp";
+import img11 from "../../../../public/assets/founders/prajakta.webp";
+import img12 from "../../../../public/assets/founders/rajveer.webp";
+import img13 from "../../../../public/assets/founders/baburao.webp";
+import img14 from "../../../../public/assets/founders/rekhatai.webp";
 import img5 from "../../../../public/assets/founders/omar.png";
 
 import Founderscard from "@/app/components/founderCard/Founderscard";
@@ -20,28 +20,28 @@ function Founders() {
 
   const founderData = [
     {
-      backgroundimg: img3,
+      backgroundimg: img13,
       founderName: "Baburao Botrepatil",
       designation: "Chairman",
       founderText:
         "His decades of experience have been crucial in shaping the company's strategic direction and driving growth.",
     },
     {
-      backgroundimg: img4,
+      backgroundimg: img14,
       founderName: "Rekhatai Botrepatil",
       designation: "Director",
       founderText:
         "She  provides invaluable support and guidance, ensuring the company’s commitment to excellence and integrity.",
     },
     {
-      backgroundimg: img1,
+      backgroundimg: img11,
       founderName: "Prajakta Marwaha",
       designation: "Managing Director",
       founderText:
         "A strategic visionary with profound business acumen, she drives the company's mission with her extensive experience.",
     },
     {
-      backgroundimg: img2,
+      backgroundimg: img12,
       founderName: "Rajveer Patil",
       designation: "Director",
       founderText:
