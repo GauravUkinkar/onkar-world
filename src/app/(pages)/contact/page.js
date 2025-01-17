@@ -123,7 +123,7 @@ function Contact() {
         <div className="contact-container container">
           <div className="contact-heading-section" ref={headingRef}>
             <h3 className="title2">
-              Get in <div className="gap"></div>
+              Get in touch<div className="gap"></div>
               <span>touch</span>
               <span className="underline"></span>
             </h3>
