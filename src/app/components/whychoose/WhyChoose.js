@@ -1,0 +1,241 @@
+"use client";
+import gsap from "gsap";
+import { useEffect, useRef } from "react";
+import { FaGlobeAmericas, FaReact } from "react-icons/fa";
+import { GoProjectRoadmap } from "react-icons/go";
+import { GrUserExpert } from "react-icons/gr";
+import { HiArrowPath } from "react-icons/hi2";
+import { IoHappyOutline } from "react-icons/io5";
+import { PiHandshakeLight, PiUsersThree } from "react-icons/pi";
+import { RxGlobe } from "react-icons/rx";
+import "./whychoose.scss";
+
+const WhyChoose = () => {
+  const sectionRef = useRef(null);
+
+  useEffect(() => {
+    const section = sectionRef.current;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          // Animate title
+          gsap.fromTo(
+            ".title2",
+            { opacity: 0, y: -50 },
+            { opacity: 1, y: 0, duration: 1, ease: "power1.out" }
+          );
+
+          // Animate paragraph
+          gsap.fromTo(
+            ".left p",
+            { opacity: 0, y: 20 },
+            { opacity: 1, y: 0, duration: 1, ease: "power1.out", delay: 0.5 }
+          );
+
+          // Animate counter boxes
+          gsap.fromTo(
+            ".counter-box .box",
+            { opacity: 0, y: 50 },
+            {
+              opacity: 1,
+              y: 0,
+              duration: 1,
+              ease: "power1.out",
+              stagger: 0.3,
+              delay: 1,
+            }
+          );
+
+          // Animate cards
+          gsap.fromTo(
+            ".card",
+            { opacity: 0, y: 50 },
+            {
+              opacity: 1,
+              y: 0,
+              duration: 1,
+              ease: "power1.out",
+              stagger: 0.3,
+              delay: 1.5,
+            }
+          );
+
+          // const counters = gsap.utils.toArray(".number");
+          const counters = gsap.utils.toArray(".number");
+          counters.forEach(counter => {
+            const updateCounter = value => {
+              // Update counter with the conditional "+" symbol
+              if (parseInt(counter.dataset.value) === 10 || parseInt(counter.dataset.value) === 500 || parseInt(counter.dataset.value) === 1000) {
+                counter.innerHTML = value + " +";
+              } else {
+                counter.innerHTML = value;
+              }
+            };
+
+            gsap.fromTo(
+              counter,
+              { innerHTML: 0 },
+              {
+                innerHTML: parseInt(counter.dataset.value),
+                duration: 4,
+                ease: "power1.out",
+                onUpdate: function () {
+                  let value = Math.floor(this.targets()[0].innerHTML);
+                  updateCounter(value);
+                },
+                onComplete: function () {
+                  // Ensure the final value is correctly set with or without "+"
+                  if (parseInt(counter.dataset.value) === 10 || parseInt(counter.dataset.value) === 500  || parseInt(counter.dataset.value) === 1000) {
+                    counter.innerHTML = parseInt(counter.dataset.value) + " +";
+                  } else {
+                    counter.innerHTML = parseInt(counter.dataset.value);
+                  }
+                },
+              }
+            );
+          });
+         
+
+          // Unobserve once animated
+          observer.unobserve(section);
+        }
+      },
+      { threshold: 0.1 }
+    );
+
+    observer.observe(section);
+
+    // Clean up the observer on component unmount
+    return () => {
+      observer.disconnect();
+    };
+  }, []);
+
+  return (
+    <>
+      <div className="parent home-parent bg-cover" ref={sectionRef}>
+        <div className="container home-cont">
+          <div className="choose-us">
+            <h2 className="title2">
+              Why Choose <div className="gap"></div>
+              <span> us?</span>
+              <span className="underline"></span>
+            </h2>
+          </div>
+          <div className="left-right-container">
+            <div className="left">
+              <p style={{ color: "var(--white)" }}>
+              Global trade is a multifaceted landscape, filled with challenges and uncertainties that can overwhelm even the most seasoned businesses. Navigating regulations, managing logistics, and ensuring compliance across borders are just a few of the complexities that companies face. Onkar World Trading Company provides a comprehensive solution designed to simplify and streamline these intricate processes. By offering expert guidance, tailored strategies, and reliable support, Onkar World ensures that businesses can confidently expand their reach and succeed in the global marketplace.
+
+              </p>
+            </div>
+            <div className="right">
+              <div className="counter-box">
+                <div className="box ">
+                  <div className="icon1 g-icon bg-contain">
+                  {/* <RxGlobe/>        */}
+                             </div>
+                  <div className="text">
+                    <div
+                      className="number"
+                      style={{ color: "var(--accent2)" }}
+                      data-value="10"
+                    >
+                      10
+                    </div>
+                    <div className="content cont1">Countries Served
+                    </div>
+                  </div>
+                </div>
+                <div className="box">
+                  <div className="icon">
+                    <PiUsersThree />
+                  </div>
+                  <div className="text">
+                    <div
+                      className="number"
+                      style={{ color: "var(--accent2)" }}
+                      data-value="500"
+                    >
+                    500
+                    </div>
+                    <div className="content">Successful Projects
+                    </div>
+                  </div>
+                </div>
+                <div className="box">
+                  <div className="icon smile">
+                    <IoHappyOutline />
+                  </div>
+                  <div className="text">
+                    <div
+                      className="number"
+                      style={{ color: "var(--accent2)" }}
+                      data-value="1000 "
+                    >
+                      1000 
+                    </div>
+                    <div className="content">Satisfied Clients</div>
+                  </div>
+                </div>
+                <div className="box">
+                  <div className="icon">
+                    <GoProjectRoadmap />
+                  </div>
+                  <div className="text">
+                    <div
+                      className="number"
+                      style={{ color: "var(--accent2)" }}
+                      data-value="25"
+                    >
+                      25
+                    </div>
+                    <div className="content">Industry Experience</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="parent cards-parent">
+        <div className="container cards-cont">
+          <div className="card1 card">
+            <div className="icon-box">
+              <GrUserExpert />
+            </div>
+            <div className="text-box">
+              <h3 className="title3">Deep Market Expertise</h3>
+              <p>
+                Leveraging in-depth knowledge of Indian and African markets.
+              </p>
+            </div>
+          </div>
+          <div className="card2 card">
+            <div className="icon-box">
+              <HiArrowPath />
+            </div>
+            <div className="text-box">
+              <h3 className="title3">End-to-End Solutions</h3>
+              <p>Providing comprehensive services from sourcing to market entry.</p>
+            </div>
+          </div>
+          <div className="card3 card cursor-dark">
+            <div className="icon-box cursor-dark">
+              <PiHandshakeLight className="cursor-dark" />
+            </div>
+            <div className="text-box cursor-dark">
+              <h3 className="title3 cursor-dark">Dedicated Partnership</h3>
+              <p className="cursor-dark">
+                Committed to your success as your trusted trade partner.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default WhyChoose;
