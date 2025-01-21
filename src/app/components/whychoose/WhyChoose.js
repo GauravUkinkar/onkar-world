@@ -86,7 +86,7 @@ const WhyChoose = () => {
                 },
                 onComplete: function () {
                   // Ensure the final value is correctly set with or without "+"
-                  if (parseInt(counter.dataset.value) === 10 || parseInt(counter.dataset.value) === 500  || parseInt(counter.dataset.value) === 1000) {
+                  if (parseInt(counter.dataset.value) === 10 || parseInt(counter.dataset.value) === 500 || parseInt(counter.dataset.value) === 1000) {
                     counter.innerHTML = parseInt(counter.dataset.value) + " +";
                   } else {
                     counter.innerHTML = parseInt(counter.dataset.value);
@@ -95,7 +95,7 @@ const WhyChoose = () => {
               }
             );
           });
-         
+
 
           // Unobserve once animated
           observer.unobserve(section);
@@ -126,7 +126,7 @@ const WhyChoose = () => {
           <div className="left-right-container">
             <div className="left">
               <p style={{ color: "var(--white)" }}>
-              Global trade is a multifaceted landscape, filled with challenges and uncertainties that can overwhelm even the most seasoned businesses. Navigating regulations, managing logistics, and ensuring compliance across borders are just a few of the complexities that companies face. Onkar World Trading Company provides a comprehensive solution designed to simplify and streamline these intricate processes. By offering expert guidance, tailored strategies, and reliable support, Onkar World ensures that businesses can confidently expand their reach and succeed in the global marketplace.
+                Global trade is a multifaceted landscape, filled with challenges and uncertainties that can overwhelm even the most seasoned businesses. Navigating regulations, managing logistics, and ensuring compliance across borders are just a few of the complexities that companies face. Onkar World Trading Company provides a comprehensive solution designed to simplify and streamline these intricate processes. By offering expert guidance, tailored strategies, and reliable support, Onkar World ensures that businesses can confidently expand their reach and succeed in the global marketplace.
 
               </p>
             </div>
@@ -134,8 +134,8 @@ const WhyChoose = () => {
               <div className="counter-box">
                 <div className="box ">
                   <div className="icon1 g-icon bg-contain">
-                  {/* <RxGlobe/>        */}
-                             </div>
+                    {/* <RxGlobe/>        */}
+                  </div>
                   <div className="text">
                     <div
                       className="number"
@@ -158,7 +158,7 @@ const WhyChoose = () => {
                       style={{ color: "var(--accent2)" }}
                       data-value="500"
                     >
-                    500
+                      500
                     </div>
                     <div className="content">Successful Projects
                     </div>
@@ -174,7 +174,7 @@ const WhyChoose = () => {
                       style={{ color: "var(--accent2)" }}
                       data-value="1000 "
                     >
-                      1000 
+                      1000
                     </div>
                     <div className="content">Satisfied Clients</div>
                   </div>
@@ -206,9 +206,10 @@ const WhyChoose = () => {
               <GrUserExpert />
             </div>
             <div className="text-box">
-              <h3 className="title3">Deep Market Expertise</h3>
+              <h3 className="title3">Decades of Agricultural Expertise
+              </h3>
               <p>
-                Leveraging in-depth knowledge of Indian and African markets.
+                With deep roots in the agricultural industry, we bring decades of experience to every product.
               </p>
             </div>
           </div>
@@ -217,8 +218,10 @@ const WhyChoose = () => {
               <HiArrowPath />
             </div>
             <div className="text-box">
-              <h3 className="title3">End-to-End Solutions</h3>
-              <p>Providing comprehensive services from sourcing to market entry.</p>
+              <h3 className="title3">Quality with Quantity              </h3>
+              <p>We maintain the perfect balance of top-notch quality while meeting high volume demands.
+
+              </p>
             </div>
           </div>
           <div className="card3 card cursor-dark">
@@ -226,9 +229,11 @@ const WhyChoose = () => {
               <PiHandshakeLight className="cursor-dark" />
             </div>
             <div className="text-box cursor-dark">
-              <h3 className="title3 cursor-dark">Dedicated Partnership</h3>
+              <h3 className="title3 cursor-dark">Self-Producing and Trading
+              </h3>
               <p className="cursor-dark">
-                Committed to your success as your trusted trade partner.
+                From production to trade, we handle every step ourselves, ensuring complete control over quality.
+
               </p>
             </div>
           </div>

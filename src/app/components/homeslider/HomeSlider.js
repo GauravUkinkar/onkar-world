@@ -53,10 +53,12 @@ const HomeSlider = () => {
       link: "/generaltrading",
       image: slider2.src,
     },
+
+      
     {
-      title: "We Trade ",
-      highlight: "Excellence",
-      titlelast: " Globally",
+      title: "Trading ",
+      highlight: "Quality",
+      titlelast: " with Every Quantity Globally ",
       link: "/generaltrading",
       image: slider3.src,
     },

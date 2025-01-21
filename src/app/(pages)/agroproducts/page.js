@@ -10,6 +10,8 @@ import superfood from "../../../../public/assets/products/superfood/superfood.we
 import rice from "../../../../public/assets/products/rice/rice.jpg";
 import trading from "../../../../public/assets/trading/trading.webp";
 import ProductCardSection from "@/app/components/productcardsection/ProductCardSection";
+import spices from "../../../../public/assets/products/spices/Spices.webp";
+import Herbss from "../../../../public/assets/products/Herbs/herbs.webp"
 import {
   jaggerytype,
   millettype,
@@ -17,6 +19,11 @@ import {
   ricetype,
   sugartype,
   superfoodtype,
+  spicesauthentic,
+  ayurvedicherbs,
+  fruits,
+  vegitables,
+
 } from "@/app/static/productType";
 import Head from "next/head";
 import { Helmet } from "react-helmet";
@@ -64,11 +71,43 @@ const Services = () => {
       img: superfood,
       type: superfoodtype,
     },
-  ];
+   
+    {
+      title: "Spices – Authentic Flavours from India",
+      content:
+        "Onkar World specializes in trading premium traditional Indian spices, celebrated for their rich flavors and medicinal benefits. Our spice offerings enhance culinary experiences while promoting health and well-being.",
+      img: spices,  // chane-img
+      type: spicesauthentic,
+    },
 
+    // change-img
+    {
+      title: "Ayurvedic Herbs – Nature’s Healing Touch",
+      content:
+        "At Onkar World, we take pride in offering a curated selection of Ayurvedic herbs, revered for centuries for their powerful therapeutic properties, natural healing abilities, and role in promoting overall wellness and balance.",
+      img: Herbss,  // change-img
+      type: ayurvedicherbs
+    },
+
+    // change-img
+    {
+      title: "Fruits and Vegetables – Freshness Rooted in Strong Connections",
+      content:
+        "At Onkar World, our commitment to freshness comes from cultivating strong, lasting relationships with local farmers. This ensures that every fruit and vegetable we deliver is grown with care, reaching global markets at its peak quality.",
+      img: superfood,  // change-img
+      type: fruits,
+      // type: vegitables,
+    },
+
+//     {
+//       title: "Our Vegetable Offerings Include",
+//  type: fruits,
+//     },
+
+  ];
   return (
     <>
-    <Helmet>
+      <Helmet>
         <meta charSet="utf-8" />
         <title>Agro Products - Onkar World | Premium Agricultural Sourcing</title>
         <meta name="description" content="Onkar World specializes in the procurement and distribution of high-quality agro products. We source the best agricultural commodities to meet global demand while maintaining quality and sustainability." />

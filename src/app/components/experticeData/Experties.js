@@ -23,16 +23,16 @@ const cardData = [
   {
     img: img2.src,
     img_hover: img5.src,
-    cardHeading: "Bulk Availability Across Asia and Africa",
+    cardHeading: "Bulk Availability and Consistent Supply",
     cardText:
-      "Onkar World maintains the largest stock in Asia and Africa, ensuring consistent, timely fulfilment of bulk orders.",
+      "Onkar World offers bulk stock and reliable availability of raw and processed goods from India and Africa. ",
   },
   {
     img: img3.src,
     img_hover: img7.src,
-    cardHeading: "Tailored Solutions for Your Business",
+    cardHeading: "Niche Products in Unmatched Quality",
     cardText:
-      "We offer customised solutions for diverse demands, making procurement effortless with both quality and quantity.",
+      "We specialise in premium fresh produce, spices, grains, and other select agricultural products.",
   },
 ];
 

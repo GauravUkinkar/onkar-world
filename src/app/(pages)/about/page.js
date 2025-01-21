@@ -75,14 +75,9 @@ function About() {
                 <span className="underline"></span>
               </h2>
               <p className="about-p">
-                Onkar World, a Dubai-based global trading powerhouse, is
-                dedicated to connecting rich agricultural landscapes with
-                markets worldwide. With a deep-rooted commitment to quality,
-                sustainability, and customer satisfaction, we have established
-                ourselves as a leading player in the international trade
-                industry. We strive to build long-term partnerships with
-                producers, customers, and communities, fostering economic growth
-                and development.
+                Onkar World, based in Dubai, is an emerging global trading company set to make a mark in the agro-commodity sector. With strong roots in India’s agricultural industry, we bring decades of expertise, deep connections with farmers, and access to high-quality produce in bulk quantities.
+                Backed by multiple manufacturing units, we have built a solid foundation in farming and agro-commodity production. Our hands-on experience with farmers ensures a thorough understanding of agricultural processes, enabling us to source premium quality raw materials efficiently and deliver them on time to global markets.
+
               </p>
             </div>
             <Link href="/contact" className="cta-btn">

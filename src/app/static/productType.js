@@ -69,6 +69,44 @@ import ragi from "../../../public/assets/products/superfood/ragi.webp";
 import sprouts from "../../../public/assets/products/superfood/sprouts.webp";
 import tulsi from "../../../public/assets/products/superfood/tulsi.webp";
 import turmeric from "../../../public/assets/products/superfood/turmeric.webp";
+///spices
+import Turmeric from '../../../public/assets/products/spices/Turmeric.webp';
+import redchilli from "../../../public/assets/products/spices/redchilli.webp";
+import BayLeaves from "../../../public/assets/products/spices/BayLeaves.webp"
+import BlackPepper from "../../../public/assets/products/spices/BlackPepper.webp"
+import Cinnamon from "../../../public/assets/products/spices/Cinnamon.webp" 
+import imli from "../../../public/assets/products/spices/imli.webp"
+import startani from "../../../public/assets/products/spices/Star-Anise.webp" 
+
+// Herbs
+
+import Ashoka from "../../../public/assets/products/Herbs/Ashoka.webp";
+import Ashwagandha from "../../../public/assets/products/Herbs/Ashwagandha.webp";
+import Brahmi from "../../../public/assets/products/Herbs/Brahmi.webp";
+import Neem from "../../../public/assets/products/Herbs/Neem.webp";
+import Khadira from "../../../public/assets/products/Herbs/Khadira.webp";
+import herbs from "../../../public/assets/products/Herbs/herbs.webp"
+
+// vegitables
+import Tomato from "../../../public/assets/products/fruitsandvegetable/vegetables/Tomato.webp"
+import Onion from "../../../public/assets/products/fruitsandvegetable/vegetables/Onion.webp";
+import eggplant from "../../../public/assets/products/fruitsandvegetable/vegetables/eggplant.webp";
+import Coriander from "../../../public/assets/products/fruitsandvegetable/vegetables/Coriander.webp";
+import Carrots from "../../../public/assets/products/fruitsandvegetable/vegetables/Capsicum.webp";
+import Capsicum from "../../../public/assets/products/fruitsandvegetable/vegetables/Capsicum.webp";
+
+
+//friuts
+
+
+import Pomegranate from '../../../public/assets/products/fruitsandvegetable/Pomegranate.webp';
+import Oranges from "../../../public/assets/products/fruitsandvegetable/Oranges.webp";
+import guava from "../../../public/assets/products/fruitsandvegetable/guava.webp";
+import SeasonalWatermelons from "../../../public/assets/products/fruitsandvegetable/SeasonalWatermelons.webp";
+import KesarBajrangMangoes from "../../../public/assets/products/fruitsandvegetable/KesarBajrangMangoes.webp"
+import CustardApple from '../../../public/assets/products/fruitsandvegetable/CustardApple.webp';
+import alpasomangoes from '../../../public/assets/products/fruitsandvegetable/alpasomangoes.webp';
+
 
 export const sugartype = [
   {
@@ -77,12 +115,7 @@ export const sugartype = [
       "Also known as table sugar, it’s the most common type used in baking and cooking. It’s made from sugarcane or sugar beets.",
     image: granulated_sugar,
   },
-  {
-    title: "Caster Sugar",
-    description:
-      "A superfine granulated sugar that dissolves quickly, making it ideal for meringues, syrups, and cocktails.",
-    image: caster_sugar,
-  },
+
   {
     title: "Powdered Sugar",
     description:
@@ -95,74 +128,35 @@ export const sugartype = [
       "Granulated sugar with added molasses, giving it a moist texture and rich flavor. Commonly used in baking.",
     image: brown_sugar,
   },
-  {
-    title: "Turbinado Sugar",
-    description:
-      "Partially refined sugar with a light molasses flavor and large, coarse crystals. Often used in beverages and as a topping.",
-    image: Turbinado_Sugar,
-  },
+
   {
     title: "Demerara Sugar",
     description:
       "A type of raw cane sugar with large, golden crystals and a subtle molasses flavor. Great for sweetening coffee and tea.",
     image: Demerara_Sugar,
   },
-  {
-    title: "Muscovado Sugar",
-    description:
-      "Unrefined cane sugar with a strong molasses flavor and moist texture. Used in rich desserts and marinades.",
-    image: Muscovado_Sugar,
-  },
-  {
-    title: "Coconut Sugar",
-    description:
-      "Made from dried, ground dates, it retains the fruit’s nutrients and is used in baking and cooking.",
-    image: coconut_sugar,
-  },
-  {
-    title: "Date Sugar",
-    description:
-      "Made from the sap of coconut palms, it has a caramel-like flavor and is often used as a natural sweetener.",
-    image: date_sugar,
-  },
-  {
-    title: "Sanding Sugar",
-    description:
-      "Large, coarse crystals that resist melting, used mainly for decorating cookies and other baked goods.",
-    image: Sanding_Sugar,
-  },
+
 ];
 
 export const jaggerytype = [
   {
-    title: "Sugarcane Jaggery",
+    title: "Turmeric Jaggery",
     description:
-      "This is the most common type, made by boiling sugarcane juice until it solidifies. It varies in colour from golden yellow to dark brown and is used in various sweet dishes and beverages.",
+      "A blend of natural turmeric and jaggery, known for its health benefits and anti-inflammatory properties.",
     image: Sugarcane_Jaggery,
   },
   {
-    title: "Date Palm Jaggery",
-    description: `Known as "Nolen Gur" or "Khejur Gur," this jaggery is made from the sap of date palm trees. It has a distinct flavour, with a darker colour and a richer taste compared to sugarcane jaggery. `,
+    title: "Rose Jaggery",
+    description: `Infused with the delicate fragrance of rose petals, offering a sweet, floral taste. `,
     image: Date_Palm_Jaggery,
   },
   {
-    title: "Coconut Jaggery",
+    title: "Ginger Jaggery",
     description:
-      "Produced from the sap of coconut trees, this jaggery is lighter in colour and has a mild, coconut-like flavour. It is commonly used in South Indian cuisine and in some Southeast Asian dishes.",
+      "A potent mix of ginger and jaggery, known for aiding digestion and boosting immunity.",
     image: Coconut_Jaggery,
   },
-  {
-    title: "Toddy Palm Jaggery",
-    description:
-      "Is made from the sap of toddy palm trees, commonly found in parts of Southeast Asia and Africa. It has a unique, caramel-like taste and is often used in desserts and traditional medicines.",
-    image: Toddy_Palm_Jaggery,
-  },
-  {
-    title: "Liquid Jaggery (Kakvi)",
-    description:
-      "Unlike the solid forms, liquid jaggery is a thick syrup made from sugarcane juice or palm sap. It is commonly used as a sweetener in various dishes and beverages, particularly in Maharashtra.",
-    image: Liquid_Jaggery,
-  },
+
 ];
 
 export const soyatype = [
@@ -230,63 +224,52 @@ export const millettype = [
   {
     title: "Pearl Millet (Bajra)",
     description:
-      "Widely cultivated and known for its drought resistance. It’s rich in protein and fiber.",
+      "A nutrient-rich grain, ideal for boosting energy and improving digestion.",
     image: Pearl_Millet,
   },
   {
-    title: "Finger Millet (Ragi)",
+    title: "Finger Millet (Ragi/Mandua)",
     description:
-      "Known for its high calcium content, it’s often used in porridges and baked goods.",
+      "A gluten-free superfood, packed with calcium, iron, and fiber.",
     image: Finger_Millet,
   },
   {
-    title: "Foxtail Millet (Kakum/Kangni)",
+    title: "Foxtail Millet (Kangni)",
     description:
-      "Rich in dietary fiber and minerals, it’s commonly used in traditional dishes.",
+      "A high-protein, fiber-rich millet, great for weight management and heart health.",
     image: Foxtail_Millet,
   },
   {
-    title: "Proso Millet (Chena)",
+    title: "Proso Millet (Cheena",
     description:
-      "Also called broomcorn millet, it’s high in protein and easy to digest.",
+      "A quick-cooking millet, packed with essential minerals and perfect for gluten-free diets.",
     image: Proso_Millet,
   },
   {
     title: "Barnyard Millet (Sanwa)",
     description:
-      "Known for its low glycemic index, making it suitable for diabetics.",
+      "Known for its high fiber content, this millet helps with digestion and weight loss.",
     image: Barnyard_Millet,
   },
   {
     title: "Little Millet (Kutki)",
     description:
-      "Small in size but packed with nutrients, it’s often used in porridges and snacks.",
+      "A tiny yet powerful grain, rich in antioxidants and a great source of fiber.",
     image: Little_Millet,
   },
   {
-    title: "Kodo Millet (Kodra)",
+    title: "Kodo Millet",
     description:
-      "High in fiber and antioxidants, it’s used in various traditional recipes.",
+      "A low-glycemic, highly nutritious millet, perfect for diabetic-friendly diets.",
     image: Kodo_Millet,
   },
   {
     title: "Browntop Millet",
     description:
-      "Known for its high nutritional value and used in various dishes.",
+      "A highly nutritious millet, known for its antioxidant properties and support for metabolic health.",
     image: Browntop_Millet,
   },
-  {
-    title: "Sorghum (Jowar)",
-    description:
-      "A versatile grain used in flour, porridge, and even beverages.",
-    image: Sorghum,
-  },
-  {
-    title: "Teff",
-    description:
-      "A tiny grain native to Ethiopia, rich in iron and used in traditional flatbreads.",
-    image: Teff,
-  },
+
 ];
 
 export const ricetype = [
@@ -474,4 +457,218 @@ export const pulsetype = [
       "These are less common but are used in some traditional dishes. They are nutritious and high in protein and fiber.",
     image: Vetches,
   },
+];
+
+
+// chagne-img
+export const spicesauthentic = [
+  {
+    title: "Turmeric (Haldi)",
+    description:
+      "A vibrant yellow spice, known for its anti-inflammatory and healing properties.",
+    image: Turmeric,
+  },
+  {
+    title: "Red Chilli Powder",
+    description:
+      "Adds a fiery heat to dishes, rich in vitamins and antioxidants.",
+    image: redchilli,
+  },
+
+  {
+    title: "Tamarind (Imli)",
+    description:
+      "A tangy fruit used to add depth and sourness to dishes and beverages.",
+    image: imli,
+  },
+
+  {
+    title: "Bay Leaves (Tej Patta)",
+    description:
+      "Fragrant leaves used to enhance flavor in curries, soups, and stews.",
+    image: BayLeaves,
+  },
+
+  {
+    title: "Black Pepper (Kali Mirch)",
+    description:
+      "A versatile spice, known for its sharp heat and digestive benefits.",
+    image: BlackPepper,
+  },
+
+  {
+    title: "Cinnamon (Dalchini)",
+    description:
+      "A sweet and aromatic spice with anti-inflammatory and antioxidant properties.",
+    image: Cinnamon,
+  },
+
+  {
+    title: "Star Anise (Badian)",
+    description:
+      "A licorice-flavored spice, commonly used to enhance the flavor of stews and soups.",
+    image: startani,
+  },
+];
+
+
+// change-img
+export const ayurvedicherbs = [
+  {
+    title: "Ashwagandha (Withania somnifera)",
+    description:
+      "Reduces stress and improves overall vitality.",
+    image: Ashwagandha,
+  },
+  {
+    title: "Brahmi (Bacopa monnieri)",
+    description:
+      " Enhances memory, concentration, and cognitive function.",
+    image: Brahmi,
+  },
+
+  {
+    title: "Neem (Azadirachta indica)",
+    description:
+      "Known for antibacterial and antifungal properties, beneficial for skin conditions.",
+    image: Neem,
+  },
+
+  {
+    title: "Khadira (Acacia catechu)",
+    description:
+      "Effective in treating skin disorders like eczema and psoriasis.",
+    image: Khadira,
+  },
+
+  {
+    title: "Ashoka (Saraca indica)",
+    description:
+      "Commonly used in gynecological treatments for excessive bleeding.",
+    image: Ashoka,
+  },
+
+
+];
+
+export const fruits = [
+  {
+    title: "Kesar and Bajrang Mangoes",
+    description:
+      "Exceptionally sweet, large, and organic, packed with nutrients.",
+    image: KesarBajrangMangoes,
+  },
+  {
+    title: "Alphonso Mangoes and other native Indian varieties:",
+    description:
+      "Renowned for their rich flavor and premium quality.",
+    image: alpasomangoes,
+  },
+  {
+    title: "Pomegranate",
+    description:
+      "uicy and packed with antioxidants, ideal for a healthy diet.",
+    image: Pomegranate,
+  },
+  {
+    title: "Oranges",
+    description:
+      "Fresh, tangy, and bursting with vitamin C.",
+    image: Oranges,
+  },
+  {
+    title: "Guava",
+    description:
+      "A tropical delight, rich in dietary fiber and vitamins.",
+    image: guava,
+  },
+  {
+    title: "Custard Apple (Sitaphal)",
+    description:
+      " Creamy and flavorful, perfect for desserts and smoothies.",
+    image: CustardApple,
+  },
+  {
+    title: "Seasonal Watermelons",
+    description:
+      "Refreshing, hydrating, and sweet, perfect for summer.",
+    image: SeasonalWatermelons,
+  },
+  {
+    title: "Onion",
+    description:
+      " Firm, flavorful, and essential in kitchens worldwide.",
+    image: Onion,
+  },
+  {
+    title: "Capsicum (Red, Yellow, Green)",
+    description:
+      "Crisp, colorful, and rich in vitamins.",
+    image: Chickpeas,
+  },
+  {
+    title: "Tomato",
+    description:
+      "Juicy, tangy, and perfect for salads and cooking.",
+    image: Tomato,
+  },
+  {
+    title: "Eggplant",
+    description:
+      "Versatile, flavorful, and nutrient-rich.",
+    image: eggplant,
+  },
+  {
+    title: "Coriander",
+    description:
+      "Fresh and aromatic, ideal for garnishing.",
+    image: Coriander,
+  },
+  {
+    title: "Carrots",
+    description:
+      "Sweet, crunchy, and packed with beta-carotene.",
+    image: Carrots,
+  },
+  
+];
+
+export const vegitables = [
+  {
+    title: "Onion",
+    description:
+      " Firm, flavorful, and essential in kitchens worldwide.",
+    image: Onion,
+  },
+  {
+    title: "Capsicum (Red, Yellow, Green)",
+    description:
+      "Crisp, colorful, and rich in vitamins.",
+    image: Chickpeas,
+  },
+  {
+    title: "Tomato",
+    description:
+      "Juicy, tangy, and perfect for salads and cooking.",
+    image: Tomato,
+  },
+  {
+    title: "Eggplant",
+    description:
+      "Versatile, flavorful, and nutrient-rich.",
+    image: eggplant,
+  },
+  {
+    title: "Coriander",
+    description:
+      "Fresh and aromatic, ideal for garnishing.",
+    image: Coriander,
+  },
+  {
+    title: "Carrots",
+    description:
+      "Sweet, crunchy, and packed with beta-carotene.",
+    image: Carrots,
+  },
+
 ];

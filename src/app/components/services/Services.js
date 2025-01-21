@@ -65,7 +65,7 @@ function Services() {
           </h3>
           <p className="service-p desc">
           Onkar World offers quality raw materials with the largest stock across Asia and Africa, ensuring reliable bulk procurement to meet your needs.
-          </p>
+          </p>  
         </div>
         <div className="service-card-box">
           {/* card 1 */}
@@ -102,10 +102,12 @@ function Services() {
 
               <div className="card-content">
                 <h3 className="card-headding title3">
-                Bulk Availability Across Asia and Africa
+                Bulk Availability and Consistent Supply
+
                 </h3>
                 <p className="card-p">
-                Onkar World maintains the largest stock in Asia and Africa.
+                Reliable bulk stock and timely supply from India and Africa.
+
                 </p>
               </div>
             </div>
@@ -122,10 +124,11 @@ function Services() {
               </div>
               <div className="card-content">
                 <h3 className="card-headding title3">
-                Tailored Solutions for Your Business
+                Niche Products in Unmatched Quality
                 </h3>
                 <p className="card-p">
-                We offer customised solutions for diverse demands.
+                Specialising in fresh produce, spices, grains, and more.
+
                 </p>
               </div>
             </div>
