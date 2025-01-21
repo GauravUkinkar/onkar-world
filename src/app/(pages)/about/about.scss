@@ -217,6 +217,8 @@
         align-items: center;
         z-index: 5;
         position: relative;
+        box-shadow: 0px 0px 10px #cbc0c0d4;
+        padding: 20px 20px 30px 20px;
 
         .siscompany-heading{
             color: white;
@@ -228,7 +230,8 @@
         .siscompany-para{
             color: white;
             text-align: center;
-            max-width: 50ch;
+            max-width: 75ch;
+            padding-top: 10px;
             // font-weight: 300;
         }
         .cta-div{
