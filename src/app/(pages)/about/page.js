@@ -94,7 +94,7 @@ function About() {
         <div className="sis-company-container container">
           <h2 className="siscompany-heading">Onkar World and Onkar Sugars – A Unified Legacy of Excellence
           </h2>
-          <p className="siscompany-para">Onkar Sugars, a key ally of Onkar World, is a leading force in Maharashtra's thriving sugar industry. Headquartered in Pune, we operate nine strategically located production units across the state, with our flagship facility, Onkar Sakhar Karkhana Pvt. Ltd., in Chandapuri, Solapur. Committed to quality and innovation, Onkar Sugars upholds the highest production standards while evolving to meet global market demands. Our focus on sustainable growth strengthens our industry leadership, positively impacting the communities we serve.
+          <p className="siscompany-para">Onkar Sugars, a key ally of Onkar World, is a leading force in Maharashtra`s thriving sugar industry. Headquartered in Pune, we operate nine strategically located production units across the state, with our flagship facility, Onkar Sakhar Karkhana Pvt. Ltd., in Chandapuri, Solapur. Committed to quality and innovation, Onkar Sugars upholds the highest production standards while evolving to meet global market demands. Our focus on sustainable growth strengthens our industry leadership, positively impacting the communities we serve.
 
           </p>
           <div className="cta-div">
