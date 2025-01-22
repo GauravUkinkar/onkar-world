@@ -559,7 +559,7 @@ export const fruits = [
     image: KesarBajrangMangoes,
   },
   {
-    title: "Alphonso Mangoes and other native Indian varieties:",
+    title: "Mangoes (Indian Varieties)",
     description:
       "Renowned for their rich flavor and premium quality.",
     image: alpasomangoes,
@@ -604,7 +604,7 @@ export const fruits = [
     title: "Capsicum (Red, Yellow, Green)",
     description:
       "Crisp, colorful, and rich in vitamins.",
-    image: Chickpeas,
+    image: Capsicum,
   },
   {
     title: "Tomato",
@@ -644,7 +644,7 @@ export const vegitables = [
     title: "Capsicum (Red, Yellow, Green)",
     description:
       "Crisp, colorful, and rich in vitamins.",
-    image: Chickpeas,
+    image: Capsicum,
   },
   {
     title: "Tomato",

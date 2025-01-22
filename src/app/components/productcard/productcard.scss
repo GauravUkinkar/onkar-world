@@ -4,6 +4,7 @@
   display: flex;
   // border-radius: 3px;
   overflow: hidden;
+  
   .product-card-left {
     width: 300px;
     height: 300px;
@@ -14,6 +15,8 @@
     padding-bottom: calc(var(--unit) * 2);
     z-index: 2;
     position: relative;
+  
+    // padding: 10px;
     .product-overlay {
       background: linear-gradient(rgba(255, 255, 255, 0),black);
       position: absolute;
@@ -30,6 +33,8 @@
       justify-content: start;
       gap: calc(var(--unit));
       // border: 1px solid red;
+      padding: 0px 5px;
+      
       font-size: 16px !important;
       span {
         display: flex;
@@ -39,10 +44,12 @@
         background: var(--white);
         color: var(--accent) !important;
         border-radius: calc(var(--unit) / 4);
+     
     }
 }
   }
   .product-card-right {
+    border:1px solid red;
     width: 300px;
     height: 300px;
     background: var(--accent);

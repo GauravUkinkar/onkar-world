@@ -12,7 +12,7 @@ function Footer() {
         <div className="footer-box">
           <div className=" f-col f-col1">
             <Link href="/" className="logo-box-footer bg-cover">
-              <img src={img.src} alt="" className="footer-logo"/>
+              <image src={img.src} alt="" className="footer-logo"/>
             </Link>
             <h3 className="title3">About Us</h3>
             <p className="left-align">
