@@ -8,8 +8,8 @@ function Expertiescomponent(props) {
         <div className="card-overlay cursor-dark"></div>
         <div className="e-icon-box cursor-dark">
           <div className="icon">
-            <img src={props.img}  alt="none" className="e-icon-img" />
-            <img src={props.img_hover} alt="none" className="e-icon-img-hover" />
+            <image src={props.img}  alt="none" className="e-icon-img" />
+            <image src={props.img_hover} alt="none" className="e-icon-img-hover" />
 
           </div>
         </div>
