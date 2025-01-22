@@ -101,22 +101,22 @@ const HomeHeader = () => {
       <div className="home-header container">
         {pathname !== "/" && (
           <Link className="logo2 hand-light responsive-logo logo-resize"  href="/">
-            <Image src={logo3} alt="Logo" className="hand-light" />
+            <image src={logo3} alt="Logo" className="hand-light" />
           </Link>
         )}
         {pathname === "/" && (
           <Link className="logo2 hand-light responsive-logo logo-resize" href="/">
-            <Image src={logo3} alt="Logo" className="hand-light" />
+            <image src={logo3} alt="Logo" className="hand-light" />
           </Link>
         )}
         {toggle && pathname == "/" && (
           <Link className="logo hand-light animated-logo logo-resize" href="/">
-            <Image src={logo3} alt="Logo" className="hand-light" />
+            <image src={logo3} alt="Logo" className="hand-light" />
           </Link>
         )}
         {pathname !== "/" && (
           <Link className="logo2 hand-light reponsive-logo2 logo-resize" href="/">
-            <Image src={logo3} alt="Logo" className="hand-light" />
+            <image src={logo3} alt="Logo" className="hand-light" />
           </Link>
         )}
         <div className="header-links">

@@ -23,7 +23,7 @@ const Transition = () => {
     <div className="transition-wrapper">
       <div className="content">
         {/* Optional: Add content or a logo */}
-        <img src="/path/to/your/logo.png" alt="Logo" className="logo" />
+        <image src="/path/to/your/logo.png" alt="Logo" className="logo" />
       </div>
     </div>
   );
