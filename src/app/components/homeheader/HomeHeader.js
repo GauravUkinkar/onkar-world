@@ -170,7 +170,7 @@ const HomeHeader = () => {
           </div>
           <div className="mobile-navigation-container container">
             <div className="mobile-logo">
-              <Image src={logo3} className="mobile-navigation-logo"/>
+              <image src={logo3} className="mobile-navigation-logo" alt="img"/>
             </div>
             <div className="mobile-naviation-box">
               <TransitionLink href="/" onClick={() => setIsOpen(false)}>
