@@ -10,7 +10,7 @@ import img5 from "../../../../public/assets/founders/omar.png";
 
 import Founderscard from "@/app/components/founderCard/Founderscard";
 import Head from "next/head";
-import { Helmet, HelmetProvider } from "react-helmet-async";
+import { Helmet, HelmetProvider } from "react-helmet-async";  
 
 function Founders() {
   const foundersRef = useRef([]);

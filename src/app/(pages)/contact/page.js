@@ -4,7 +4,7 @@ import gsap from "gsap";
 import "./contact.scss";
 import toast, { Toaster } from "react-hot-toast";
 import Head from "next/head";
-import { Helmet } from "react-helmet";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 // import axios from "axios";
 
 function Contact() {

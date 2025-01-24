@@ -9,7 +9,7 @@ import cotton from "../../../../public/assets/products/generaltrading/cotton.web
 import hardware from "../../../../public/assets/products/generaltrading/hardware.webp";
 import steel from "../../../../public/assets/products/generaltrading/steel.webp";
 import Head from "next/head";
-import { Helmet } from "react-helmet";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 function page() {
   // --------------Trading Solutions-------------
   // const tradingData = [
