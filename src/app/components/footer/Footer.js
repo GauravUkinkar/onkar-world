@@ -1,3 +1,5 @@
+"use client"
+
 import React from "react";
 import "./footer.scss";
 import Link from "next/link";
@@ -5,6 +7,7 @@ import { LuPhoneCall } from "react-icons/lu";
 import { LuMail } from "react-icons/lu";
 import { IoLocationOutline } from "react-icons/io5";
 import img from "../../../../public/assets/logo/logo2.png"
+import Image from "next/image";
 function Footer() {
   return (
     <div className="footer-parent parent">
@@ -12,7 +15,7 @@ function Footer() {
         <div className="footer-box">
           <div className=" f-col f-col1">
             <Link href="/" className="logo-box-footer bg-cover">
-              <image src={img.src} alt="" className="footer-logo"/>
+              <Image src={img} alt="" className="footer-logo"/>
             </Link>
             <h3 className="title3">About Us</h3>
             <p className="left-align">

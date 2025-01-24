@@ -10,7 +10,7 @@ import img5 from "../../../../public/assets/founders/omar.png";
 
 import Founderscard from "@/app/components/founderCard/Founderscard";
 import Head from "next/head";
-import { Helmet } from "react-helmet";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 
 function Founders() {
   const foundersRef = useRef([]);
@@ -109,12 +109,15 @@ function Founders() {
 
   return (
     <>
+
+<HelmetProvider>
        <Helmet>
         <meta charSet="utf-8" />
         <title>Founders - Onkar World | Visionary Leadership in Global Trade</title>
         <meta name="description" content="Meet the visionary founder of Onkar World, leading the way in global trade. Our founder's deep commitment to quality, sustainability, and customer success has established us as a top global trading company." />
         <meta name="keywords" content="Onkar World founder, global trade leadership, visionary leadership, Onkar World leadership, Dubai trade company, international trade expertise, sustainable trade, quality procurement" />
       </Helmet>
+      </HelmetProvider>
 
       <div className="founders-parent parent" ref={sectionRef}>
         <div className="founders-container container">

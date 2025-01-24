@@ -3,9 +3,10 @@ import Experties from "@/app/components/experticeData/Experties";
 import gsap from "gsap";
 import Link from "next/link";
 import { useEffect, useRef } from "react";
-import { Helmet } from "react-helmet";
+
 import ServiceAbout from "../servicesabout/ServiceAbout";
 import "./about.scss";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 // import serviceAbout from '../services/p';
 
 function About() {
@@ -46,12 +47,14 @@ function About() {
 
   return (
     <>
+      <HelmetProvider>
       <Helmet>
         <meta charSet="utf-8" />
         <title>About Us - Onkar World | Global Trade Excellence</title>
         <meta name="description" content="Onkar World, based in Dubai, is committed to providing top-notch global trading services by sourcing high-quality agricultural products from trusted suppliers across Asia and Africa. Learn more about our mission and expertise." />
         <meta name="keywords" content="Onkar World, about Onkar World, global trade, Dubai trading company, agricultural sourcing, sustainable trade, bulk procurement, international trade solutions" />
       </Helmet>
+      </HelmetProvider>
       <div className="parent about-parent" ref={sectionRef}>
         <div className="container about-cont">
           <div className="left" ref={leftRef}>

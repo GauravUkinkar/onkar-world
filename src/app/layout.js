@@ -9,7 +9,7 @@ import GetInTouch from "./components/getintouch/GetInTouch";
 import HomeHeader from "./components/homeheader/HomeHeader";
 import "./globals.scss";
 import Head from "next/head";
-import { Helmet } from "react-helmet";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 export default function RootLayout({ children }) {
   const cursorRef = useRef(null);
   useEffect(() => {
@@ -73,12 +73,14 @@ export default function RootLayout({ children }) {
   const shouldHideLayout = noLayoutPaths.includes(pathname);
   return (
     <html lang="en">
+      <HelmetProvider>
       <Helmet>
       <meta charSet="utf-8" />
         <title>
            Onkar World 
         </title>
       </Helmet>
+      </HelmetProvider>
       <body>
         <div className="custom-cursor" ref={cursorRef}></div>
         {!shouldHideLayout && pathname !== "/" && <HomeHeader />}

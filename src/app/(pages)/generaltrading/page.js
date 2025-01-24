@@ -56,6 +56,7 @@ function page() {
   ];
   return (
     <>
+     <HelmetProvider>
       <Helmet>
         <meta charSet="utf-8" />
         <title>General Trading - Onkar World | Global Trading Excellence</title>
@@ -68,6 +69,7 @@ function page() {
           content="Onkar World, general trading, global trading, international trading, product sourcing, logistics, trade solutions, procurement, global markets, trade industry"
         />
       </Helmet>
+      </HelmetProvider>
 
       {/* // ----------------------------General Trading-------------------- */}
 

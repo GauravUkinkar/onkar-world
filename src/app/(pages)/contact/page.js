@@ -104,6 +104,7 @@ function Contact() {
 
   return (
     <>
+     <HelmetProvider>
       <Helmet>
         <meta charSet="utf-8" />
         <title>
@@ -118,6 +119,7 @@ function Contact() {
           content="Onkar World, contact Onkar World, global trading contact, trade inquiries, Dubai trade company, procurement services, international trade, business inquiries"
         />
       </Helmet>
+      </HelmetProvider>
 
       <div className="contact-parent parent" ref={sectionRef}>
         <div className="contact-container container">

@@ -28,7 +28,7 @@ import {
 
 } from "@/app/static/productType";
 import Head from "next/head";
-import { Helmet } from "react-helmet";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 const Services = () => {
   const data = [
     {
@@ -109,12 +109,14 @@ const Services = () => {
   ];
   return (
     <>
+     <HelmetProvider>
       <Helmet>
         <meta charSet="utf-8" />
         <title>Agro Products - Onkar World | Premium Agricultural Sourcing</title>
         <meta name="description" content="Onkar World specializes in the procurement and distribution of high-quality agro products. We source the best agricultural commodities to meet global demand while maintaining quality and sustainability." />
         <meta name="keywords" content="Onkar World, agro products, agricultural sourcing, global agriculture, high-quality agro products, sustainable agriculture, bulk agricultural products, farming products, agricultural trade" />
       </Helmet>
+      </HelmetProvider>
 
       <div className="service-parent-page">
         <div className="service-container container">
