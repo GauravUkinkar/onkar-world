@@ -5,30 +5,34 @@ import "./experties.scss";
 import img1 from "../../../../public/assets/Icon/PRQ3.png";
 import img2 from "../../../../public/assets/Icon/BAC3.png";
 import img3 from "../../../../public/assets/Icon/TSF3.png";
-import img4 from "../../../../public/assets/Icon/PRQ2.png";
-import img5 from "../../../../public/assets/Icon/BAC2.png";
+import img4 from "../../../../public/assets/Icon/1NewRawMaterialGreen.gif";
+import img5 from "../../../../public/assets/Icon/2NewBulkavailabilityGreen.gif";
 import img6 from "../../../../public/assets/Icon/TSF2.png";
-import img7 from '../../../../public/assets/Icon/tsgif.gif'
+import img7 from '../../../../public/assets/Icon/3NewunmatchqualityGreen.gif'
+// ---gif--
+import gif1 from '../../../../public/assets/about/experties/1Raw_material.gif'
+import gif2 from '../../../../public/assets/about/experties/2Bulk_availability.gif'
 
+import gif3 from '../../../../public/assets/about/experties/3unmatch_quality.gif'
 import Expertiescomponent from "../expertice/Expertiescomponent";
 
 const cardData = [
   {
-    img: img1.src,
+    img: gif1.src,
     img_hover: img4.src,
 
     cardHeading: "Reliable Procurement of Quality Raw Materials",
     cardText: "We source the finest raw materials from trusted suppliers, ensuring each product meets the highest quality standards.",
   },
   {
-    img: img2.src,
+    img: gif2.src,
     img_hover: img5.src,
     cardHeading: "Bulk Availability and Consistent Supply",
     cardText:
       "Onkar World offers bulk stock and reliable availability of raw and processed goods from India and Africa. ",
   },
   {
-    img: img3.src,
+    img: gif3.src,
     img_hover: img7.src,
     cardHeading: "Niche Products in Unmatched Quality",
     cardText:

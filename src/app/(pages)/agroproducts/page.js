@@ -10,8 +10,10 @@ import superfood from "../../../../public/assets/products/superfood/superfood.we
 import rice from "../../../../public/assets/products/rice/rice.jpg";
 import trading from "../../../../public/assets/trading/trading.webp";
 import ProductCardSection from "@/app/components/productcardsection/ProductCardSection";
+
 import spices from "../../../../public/assets/products/spices/Spices.webp";
 import Herbss from "../../../../public/assets/products/Herbs/herbs.webp"
+import fruitveg  from "../../../../public/assets/products/fruitsandvegetable/fruitsvegetable.webp";
 import {
   jaggerytype,
   millettype,
@@ -94,7 +96,7 @@ const Services = () => {
       title: "Fruits and Vegetables – Freshness Rooted in Strong Connections",
       content:
         "At Onkar World, our commitment to freshness comes from cultivating strong, lasting relationships with local farmers. This ensures that every fruit and vegetable we deliver is grown with care, reaching global markets at its peak quality.",
-      img: superfood,  // change-img
+      img: fruitveg,  // change-img
       type: fruits,
       // type: vegitables,
     },

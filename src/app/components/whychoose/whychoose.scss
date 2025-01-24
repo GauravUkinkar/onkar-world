@@ -39,11 +39,12 @@
       gap: var(--unit);
       padding: calc(var(--unit) * 1.5) 0px;
       // /* From https://css.glass */
-background: rgba(255, 255, 255, 0.12);
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(3.6px);
--webkit-backdrop-filter: blur(3.6px);
-border: 1px solid rgba(255, 255, 255, 0.1);box-shadow: 0px 0px 10px #ffffff3a;
+      background: rgba(255, 255, 255, 0.12);
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(3.6px);
+      -webkit-backdrop-filter: blur(3.6px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      box-shadow: 0px 0px 10px #ffffff3a;
 
       margin-bottom: 20px;
 
@@ -55,7 +56,7 @@ border: 1px solid rgba(255, 255, 255, 0.1);box-shadow: 0px 0px 10px #ffffff3a;
         padding: calc(var(--unit));
         height: 100%;
         text-align: justify;
-       
+
       }
 
       .right {
@@ -85,15 +86,35 @@ border: 1px solid rgba(255, 255, 255, 0.1);box-shadow: 0px 0px 10px #ffffff3a;
               color: white;
             }
 
-            .g-icon{
+            .g-icon {
               font-size: 58px !important;
-              height: 54px;
-              width: 54px;
-              background-position: center center;
-              background-repeat: no-repeat;
-              background-size: cover;
-background: url('../../../../public/assets/country-serve.png');
+              height: 60px;
+              width: 60px;
+             
+              background: url('../../../../public/assets/whychoose/countries_served1.gif');
             }
+
+            .indusry-icon4{
+              height: 54px;
+              font-size: 58px !important;
+              width: 54px;
+              
+              background: url('../../../../public/assets/whychoose/4Newindustryexpirence.gif');
+            }
+            .indusry-icon2{
+              height: 54px;
+              font-size: 58px !important;
+              width: 54px;
+                            background: url('../../../../public/assets/whychoose/2NewSatisfiedClients.gif');
+            }
+            .indusry-icon3{
+              height: 54px;
+              font-size: 58px !important;
+              width: 54px;
+              
+              background: url('../../../../public/assets/whychoose/3Newsuccessfullprojects.gif');
+            }
+
             // .smile{
             //   margin-left: -13px; 
             // }
@@ -163,7 +184,7 @@ background: url('../../../../public/assets/country-serve.png');
       justify-content: center;
       gap: var(--unit);
       padding: 40px 25px;
-      height: 170px;
+      height: 185px;
 
       .icon-box {
         font-size: calc(var(--unit) * 3);
@@ -203,16 +224,32 @@ background: url('../../../../public/assets/country-serve.png');
     .card1 {
       background-color: #f6f6f6;
       width: 33.33%;
+      .agriexpert{
+        background: url("../../../../public/assets/whychoose/11Agriculture_experties.gif");
+        height: 70px;
+        width: 70px;
+      }
     }
 
     .card2 {
       width: 33.33%;
       background-color: var(--accent);
+      .quality{
+        background: url("../../../../public/assets/whychoose/22maintian_Balance.gif");
+        height: 70px;
+        width: 70px;
+      }
     }
 
     .card3 {
       width: 33.33%;
       background-color: var(--accent2);
+
+      .self-producing{
+        background: url("../../../../public/assets/whychoose/33self_producing.gif");
+        height: 70px;
+        width: 70px;
+      }
     }
   }
 }
@@ -315,8 +352,8 @@ background: url('../../../../public/assets/country-serve.png');
             }
 
             .g-icon {
-           height: 45px !important;
-           width: 45px !important;
+              height: 45px !important;
+              width: 45px !important;
               // margin-right: -10px;
             }
 

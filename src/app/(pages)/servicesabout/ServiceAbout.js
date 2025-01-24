@@ -1,10 +1,10 @@
 import React from "react";
 import "./style.scss";
 import TwoCol from "@/app/components/twocol/TwoCol";
-import img1 from "../../../../public/assets/services/img1.webp";
+import img1 from "../../../../public/assets/about/rawmaterial1.webp";
 import img22 from '../../../../public/assets/services/img22.jpg'
 import img2 from "../../../../public/assets/services/img2.webp";
-import img3 from "../../../../public/assets/services/img3.webp";
+import img3 from "../../../../public/assets/services/niche.webp";
 const ServiceAbout = () => {
   const data = [
     {

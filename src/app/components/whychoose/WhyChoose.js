@@ -150,7 +150,8 @@ const WhyChoose = () => {
                 </div>
                 <div className="box">
                   <div className="icon">
-                    <PiUsersThree />
+                  <div className="icon2 indusry-icon2 bg-contain">
+                    </div>
                   </div>
                   <div className="text">
                     <div
@@ -166,7 +167,8 @@ const WhyChoose = () => {
                 </div>
                 <div className="box">
                   <div className="icon smile">
-                    <IoHappyOutline />
+                  <div className="icon1 indusry-icon3 bg-contain">
+                    </div>
                   </div>
                   <div className="text">
                     <div
@@ -180,8 +182,8 @@ const WhyChoose = () => {
                   </div>
                 </div>
                 <div className="box">
-                  <div className="icon">
-                    <GoProjectRoadmap />
+                  <div className="icon1 indusry-icon4 bg-contain">
+                    {/* <GoProjectRoadmap /> */}
                   </div>
                   <div className="text">
                     <div
@@ -203,7 +205,7 @@ const WhyChoose = () => {
         <div className="container cards-cont">
           <div className="card1 card">
             <div className="icon-box">
-              <GrUserExpert />
+            <span className="agriexpert bg-cover"></span>
             </div>
             <div className="text-box">
               <h3 className="title3">Decades of Agricultural Expertise
@@ -215,7 +217,7 @@ const WhyChoose = () => {
           </div>
           <div className="card2 card">
             <div className="icon-box">
-              <HiArrowPath />
+            <span className="quality bg-cover"></span>
             </div>
             <div className="text-box">
               <h3 className="title3">Quality with Quantity              </h3>
@@ -226,7 +228,7 @@ const WhyChoose = () => {
           </div>
           <div className="card3 card cursor-dark">
             <div className="icon-box cursor-dark">
-              <PiHandshakeLight className="cursor-dark" />
+              <span className="cursor-dark self-producing bg-cover" />
             </div>
             <div className="text-box cursor-dark">
               <h3 className="title3 cursor-dark">Self-Producing and Trading
