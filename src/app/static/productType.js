@@ -92,7 +92,7 @@ import Tomato from "../../../public/assets/products/fruitsandvegetable/vegetable
 import Onion from "../../../public/assets/products/fruitsandvegetable/vegetables/Onion.webp";
 import eggplant from "../../../public/assets/products/fruitsandvegetable/vegetables/eggplant.webp";
 import Coriander from "../../../public/assets/products/fruitsandvegetable/vegetables/Coriander.webp";
-import Carrots from "../../../public/assets/products/fruitsandvegetable/vegetables/carrots.webp";
+import Carrots from "../../../public/assets/products/fruitsandvegetable/vegetables/Carrots.webp";
 import Capsicum from "../../../public/assets/products/fruitsandvegetable/vegetables/Capsicum.webp";
 
 
