@@ -77,7 +77,7 @@ const Services = () => {
     {
       title: "Spices – Authentic Flavours from India",
       content:
-        "Onkar World specializes in trading premium traditional Indian spices, celebrated for their rich flavors and medicinal benefits. Our spice offerings enhance culinary experiences while promoting health and well-being.",
+        "Onkar World specialises in trading premium traditional Indian spices, celebrated for their rich flavors and medicinal benefits. Our spice offerings enhance culinary experiences while promoting health and well-being.",
       img: spices,  // chane-img
       type: spicesauthentic,
     },

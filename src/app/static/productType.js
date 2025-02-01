@@ -92,7 +92,7 @@ import Tomato from "../../../public/assets/products/fruitsandvegetable/vegetable
 import Onion from "../../../public/assets/products/fruitsandvegetable/vegetables/Onion.webp";
 import eggplant from "../../../public/assets/products/fruitsandvegetable/vegetables/eggplant.webp";
 import Coriander from "../../../public/assets/products/fruitsandvegetable/vegetables/Coriander.webp";
-import Carrots from "../../../public/assets/products/fruitsandvegetable/vegetables/Capsicum.webp";
+import Carrots from "../../../public/assets/products/fruitsandvegetable/vegetables/carrots.webp";
 import Capsicum from "../../../public/assets/products/fruitsandvegetable/vegetables/Capsicum.webp";
 
 
@@ -240,7 +240,7 @@ export const millettype = [
     image: Foxtail_Millet,
   },
   {
-    title: "Proso Millet (Cheena",
+    title: "Proso Millet (Cheena)",
     description:
       "A quick-cooking millet, packed with essential minerals and perfect for gluten-free diets.",
     image: Proso_Millet,
@@ -391,7 +391,7 @@ export const superfoodtype = [
   {
     title: "Sprouts",
     description:
-      "Rich in protein, vitamins, and minerals, they are great for detoxification and overall health",
+      "Rich in protein, vitamins, and minerals, they are great for detoxification and overall health.",
     image: sprouts,
   },
 ];
@@ -567,7 +567,7 @@ export const fruits = [
   {
     title: "Pomegranate",
     description:
-      "uicy and packed with antioxidants, ideal for a healthy diet.",
+      "Juicy and packed with antioxidants, ideal for a healthy diet.",
     image: Pomegranate,
   },
   {
