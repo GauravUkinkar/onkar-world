@@ -48,7 +48,7 @@ function PrivacyPolicy() {
 
         <h3>Contact Us</h3>
         <p>
-          If you have any questions about our privacy practices, please contact us at <a href="mailto:contact@onkarworld.com">contact@onkarworld.com</a>.
+          If you have any questions about our privacy practices, please contact us at <a href="mailto:info@onkarworld.com">info@onkarworld.com</a>.
         </p>
       </div>
     </div>

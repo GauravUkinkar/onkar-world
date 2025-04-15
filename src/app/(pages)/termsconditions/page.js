@@ -31,7 +31,7 @@ function page() {
           </div>
           <div className="list">
             <h5 className="heading">Email:</h5>
-            <p>contact@onkarworld.com</p>
+            <p>info@onkarworld.com</p>
           </div>
 
           <h3>3. Use of the Website</h3>
@@ -71,7 +71,7 @@ function page() {
 
           <h3>9. Contact Information</h3>
           <p>
-            If you have any questions about these Terms, please contact us at contact@onkarworld.com.
+            If you have any questions about these Terms, please contact us at info@onkarworld.com.
           </p>
         </div>
       </div>

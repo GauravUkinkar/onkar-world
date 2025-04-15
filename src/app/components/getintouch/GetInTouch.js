@@ -101,7 +101,7 @@ const GetInTouch = () => {
                     href="mailto:onkarworld.com"
                     style={{ color: "white", textDecoration: "none" }}
                   >
-                   contact@onkarworld.com
+                   info@onkarworld.com
                   </a>
                 </span>
               </div>

@@ -51,11 +51,11 @@ function Footer() {
               </span>
               <p className="hand-light">+971 50 806 0418</p>
             </a>
-            <a className="icon-box  " href="mailto:contact@onkarworld.com">
+            <a className="icon-box  " href="mailto:info@onkarworld.com">
               <span className="f-icon hand-light">
                 <LuMail className="hand-light" />
               </span>
-              <p className="hand-light">contact@onkarworld.com</p>
+              <p className="hand-light">info@onkarworld.com</p>
             </a>
             <a className="icon-box icon-location">
               <span className="f-icon hand-light">
