@@ -108,10 +108,6 @@ function About() {
         </div>
       </div> 
 
-
-
-
-
       {/* expertice  */}
       <Experties />
       <div className="service-about-parent">

@@ -31,15 +31,20 @@ export default function RootLayout({ children }) {
       gsap.to(cursorRef.current, { opacity: 1, duration: 0.3 });
 
       if (target.classList.contains("cursor-dark")) {
-        cursorRef.current.style.backgroundImage = "url(/assets/Icon/Arrow_1.png)";
+        cursorRef.current.style.backgroundImage =
+          "url(/assets/Icon/Arrow_1.png)";
       } else if (target.classList.contains("hand-dark")) {
-        cursorRef.current.style.backgroundImage = "url(/assets/Icon/Hand_1.png)";
+        cursorRef.current.style.backgroundImage =
+          "url(/assets/Icon/Hand_1.png)";
       } else if (target.classList.contains("hand-light")) {
-        cursorRef.current.style.backgroundImage = "url(/assets/Icon/Hand_2.png)";
+        cursorRef.current.style.backgroundImage =
+          "url(/assets/Icon/Hand_2.png)";
       } else if (target.tagName === "A") {
-        cursorRef.current.style.backgroundImage = "url(/assets/Icon/Hand_2.png)";
+        cursorRef.current.style.backgroundImage =
+          "url(/assets/Icon/Hand_2.png)";
       } else {
-        cursorRef.current.style.backgroundImage = "url(/assets/Icon/Arrow_2.png)";
+        cursorRef.current.style.backgroundImage =
+          "url(/assets/Icon/Arrow_2.png)";
       }
     };
 

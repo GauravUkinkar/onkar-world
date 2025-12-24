@@ -9,7 +9,7 @@ function Founderscard(props) {
       <div className="founders-card">
         <div
           className="card-img bg-cover"
-          style={{ background: `url(${props.background.src})` }} 
+          style={{ background: `url(${props.background})` }} 
         ></div>
        
         <div className="card-bottom">

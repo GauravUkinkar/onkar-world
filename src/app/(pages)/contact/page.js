@@ -104,21 +104,21 @@ function Contact() {
 
   return (
     <>
-     <HelmetProvider>
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>
-          Contact Us - Onkar World | Connect for Global Trade Solutions
-        </title>
-        <meta
-          name="description"
-          content="Get in touch with Onkar World to explore our comprehensive trade services and customized procurement solutions. We are your partners in global trade success."
-        />
-        <meta
-          name="keywords"
-          content="Onkar World, contact Onkar World, global trading contact, trade inquiries, Dubai trade company, procurement services, international trade, business inquiries"
-        />
-      </Helmet>
+      <HelmetProvider>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>
+            Contact Us - Onkar World | Connect for Global Trade Solutions
+          </title>
+          <meta
+            name="description"
+            content="Get in touch with Onkar World to explore our comprehensive trade services and customized procurement solutions. We are your partners in global trade success."
+          />
+          <meta
+            name="keywords"
+            content="Onkar World, contact Onkar World, global trading contact, trade inquiries, Dubai trade company, procurement services, international trade, business inquiries"
+          />
+        </Helmet>
       </HelmetProvider>
 
       <div className="contact-parent parent" ref={sectionRef}>
